@@ -91,7 +91,7 @@ function App() {
 
       {result && !loading && (
         <div className={getResultClass(result.predicted_class)}>
-          <h2>Hasil Deteksi Jenis Sampah </h2>
+          <h2>Hasil Deteksi </h2>
           <p><strong>Jenis Sampah: {result.predicted_class}</strong></p>
           <p>
             <strong>Tingkat Kepastian:{" "}
