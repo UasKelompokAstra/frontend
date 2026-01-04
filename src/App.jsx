@@ -75,7 +75,7 @@ function App() {
       <form onSubmit={handleSubmit}>
         <input type="file" accept="image/*" onChange={handleFileChange} />
         <button type="submit" disabled={loading}>
-          {loading ? "Memproses..." : "Prediksi"}
+          {loading ? "Memproses..." : "Deteksi"}
         </button>
       </form>
 
@@ -91,11 +91,11 @@ function App() {
 
       {result && !loading && (
         <div className={getResultClass(result.predicted_class)}>
-          <h2>Hasil Prediksi</h2>
-          <p><strong>Jenis Sampah:</strong> {result.predicted_class}</p>
+          <h2>Hasil Deteksi Jenis Sampah </h2>
+          <p><strong>Jenis Sampah: {result.predicted_class}</strong></p>
           <p>
-            <strong>Tingkat Kepastian:</strong>{" "}
-            {(result.confidence * 100).toFixed(2)}%
+            <strong>Tingkat Kepastian:{" "}
+            {(result.confidence * 100).toFixed(2)}%</strong>
           </p>
         </div>
       )}
