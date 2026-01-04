@@ -1,6 +1,6 @@
 # React + Vite
 
-# Klasifikasi Jenis Sampah Berbasis Citra Menggunakan Model deep learning ResNet-50 buatkan saya flowchart dari judul ini
+# Klasifikasi Jenis Sampah Berbasis Citra Menggunakan Model deep learning ResNet-50 
 
 # Deskripsi : 
 - Hanya Bisa Memprediksi 4 Jenis Sampah Yaitu 
@@ -32,4 +32,4 @@
 - buka browser untuk melihat tampilan dari web nya
 
 # Link Akses Online
-- 
+- https://deteksijenissampah.vercel.app/
