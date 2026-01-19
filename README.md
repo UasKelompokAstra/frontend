@@ -19,7 +19,7 @@
 # Teknologi : 
 - Backend : Menggunakan Python (Flask)
 - Frontend : Menggunakan Javascript (React JS) dan CSS
-- Deployment : Menggunakan Vercel
+- Deployment : Menggunakan Vercel Dan Railway
 
 # Cara Instal Dan Gunakan Di Localhost : 
 - git clone https://github.com/UasKelompokAstra/frontend
